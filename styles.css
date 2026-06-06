@@ -281,14 +281,14 @@ ul {
 }
 
 .btn-primary {
-  background: var(--accent);
-  color: var(--bg);
+  background: #dc2626;
+  color: #fff;
 }
 
 .btn-primary:hover {
-  background: #dbb42e;
+  background: #ef4444;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px var(--accent-glow);
+  box-shadow: 0 8px 24px rgba(220, 38, 38, 0.4);
 }
 
 .btn-outline {
@@ -298,8 +298,8 @@ ul {
 }
 
 .btn-outline:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: #dc2626;
+  color: #ef4444;
 }
 
 .btn-full {
